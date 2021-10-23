@@ -1,6 +1,3 @@
-
-
-
 P=1;
 A=1;
 theta = linspace(0,90,90);
@@ -27,5 +24,3 @@ title('Average shear stress')
 yticks([ ])
 xlim([0 90])
 ylim([0 0.55])
-
-
