@@ -18,30 +18,19 @@ psi = -A.*x.*y;
 
 figure(1)
 [x,y] = contourf(x,y,psi,'LevelStep',0.1,'LineWidth',1);
+clabel(x,y)
 
 hold on
-
-
-
 plot(x_stag,y_stag,'ro','LineWidth',2)
 
 plot(1,1,'ro','LineWidth',2)
-
-clabel(x,y)
-
 
 xlim([0.001 1.3])
 ylim([0.001 1.5])
 
 [x,y] = meshgrid(linspace(0,1.5,200),linspace(0,1.5,200));
-
 contour(x,y,psi,'r','LevelStep',1,'LineWidth',2);
-
-
-
+% Streamline at psi=1
 
 quiver(X,Y,u_x,u_y,'k');
-
-
-
-
+% Vector field of flow
