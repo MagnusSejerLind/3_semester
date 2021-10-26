@@ -15,8 +15,10 @@ clabel(x,y)
 
 
 
+title('Pressure Distribution')
 
+xlabel('x')
+ylabel('y')
 
-
-
-
+hYLabel = get(gca,'YLabel');
+set(hYLabel,'rotation',0,'VerticalAlignment','middle')
