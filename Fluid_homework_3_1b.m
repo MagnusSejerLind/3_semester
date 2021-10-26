@@ -41,4 +41,4 @@ xlabel('x')
 ylabel('y')
 
 hYLabel = get(gca,'YLabel');
- set(hYLabel,'rotation',0,'VerticalAlignment','middle')
+set(hYLabel,'rotation',0,'VerticalAlignment','middle')
