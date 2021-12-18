@@ -1,4 +1,8 @@
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%            NOT CORRECT PLOT!             %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Mistake probably in streamfunction expression
 
 [x,y] = meshgrid(linspace(-1,1,500),linspace(-1,1,500));
 
